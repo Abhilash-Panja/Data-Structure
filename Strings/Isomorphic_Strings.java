@@ -1,6 +1,10 @@
 package Strings;
 import java.util.*;
 public class Isomorphic_Strings {
+//we should know about the isomorphic it means suppose a vachinappudu manaku b nee vasthundhi
+//in case c vachinapdu b vastha adi isomorphic kadhu bcz 
+//a-->b
+//c-->b
    static boolean isIsomorphic(String s, String t) {
        HashMap<Character,Character> map1=new HashMap<>();
         if(s.length()!=t.length()){
